@@ -1,0 +1,59 @@
+item {
+  id: 1
+  name: 'Ceramic/Porcelain Insulator'
+}
+
+item {
+  id: 2
+  name: 'Polymer Insulator'
+}
+
+item {
+  id: 3
+  name: 'Mushroom Insulator'
+}
+
+item {
+  id: 4
+  name: 'Dead-end Ceramic Insulator'
+}
+
+item {
+  id: 5
+  name: 'Dead-end Polymer Insulator'
+}
+
+item {
+  id: 6
+  name: 'Ceramic/Porcelain Arrester'
+}
+
+item {
+  id: 7
+  name: 'Polymer Arrester'
+}
+
+item {
+  id: 8
+  name: 'Jiffy Splice'
+}
+
+item {
+  id: 9
+  name: 'Compression/Crimped Splice'
+}
+
+item {
+  id: 10
+  name: 'Under-mounted Switch'
+}
+
+item {
+  id: 11
+  name: 'Vertical Disconnect Switch'
+}
+
+item {
+  id: 12
+  name: 'Line Tension Switch'
+}
