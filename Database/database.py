@@ -93,16 +93,16 @@ def select_object_by_city(conn, code, city):
     rows = cur.fetchall()
     return rows
 
-def select_object_by_coord(conn, code, lat, long):
+def select_object_by_coord(conn, code, lat, lon):
     cur = conn.cursor()
     if code == 1:
-        cur.execute("SELECT * FROM insulators WHERE latitude=? AND longitude=?", (lat,long))
+        cur.execute("SELECT * FROM insulators WHERE latitude=? AND longitude=?", (lat,lon))
     elif code == 2:
-        cur.execute("SELECT * FROM lightning_arresters latitude=? AND longitude=?", (lat,long))
+        cur.execute("SELECT * FROM lightning_arresters latitude=? AND longitude=?", (lat,lon))
     elif code == 3:
-        cur.execute("SELECT * FROM splices WHERE latitude=? AND longitude=?", (lat,long))
+        cur.execute("SELECT * FROM splices WHERE latitude=? AND longitude=?", (lat,lon))
     elif code == 4:
-        cur.execute("SELECT * FROM disconnect_switch WHERE latitude=? AND longitude=?", (lat,long))
+        cur.execute("SELECT * FROM disconnect_switch WHERE latitude=? AND longitude=?", (lat,lon))
     rows = cur.fetchall()
     return rows
 
